@@ -1,5 +1,10 @@
 const http = require("http");
 const { PORT } = require("./config.js")
+
+const testJSON = {
+  "name": "web-app-architecture-pattern",
+}
+
 const server = http.createServer(async (req, res) => {
   if (req.url === "/api" && req.method === "GET") {
 
@@ -8,7 +13,7 @@ const server = http.createServer(async (req, res) => {
       "Access-Control-Allow-Origin": "*"
     });
 
-    res.write("Init");
+    res.write(testJSON);
 
     res.end();
   }
