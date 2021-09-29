@@ -3,7 +3,10 @@ const { PORT } = require("./config.js")
 const server = http.createServer(async (req, res) => {
   if (req.url === "/api" && req.method === "GET") {
 
-    res.writeHead(200, { "Content-Type": "application/json" });
+    res.writeHead(200, {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    });
 
     res.write("Init");
 
