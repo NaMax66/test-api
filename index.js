@@ -13,7 +13,7 @@ const server = http.createServer(async (req, res) => {
       "Access-Control-Allow-Origin": "*"
     });
 
-    res.write(testJSON);
+    res.write(JSON.stringify(testJSON));
 
     res.end();
   }
