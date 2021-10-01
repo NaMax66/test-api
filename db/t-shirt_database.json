@@ -1,0 +1,143 @@
+[
+    {
+        "img": "ian-dooley-wzRKn-AjKf4-unsplash.jpg",
+        "title": "Скелетная рука, мужская",
+        "price": 850,
+        "size": "S",
+        "color": "черный"
+    },
+    {
+        "img": "adrian-ordonez-xrvWzRVwAmM-unsplash.jpg",
+        "title": "Няшная футболка",
+        "price": 950,
+        "size": "M",
+        "color": "белый"
+    },
+    {
+        "img": "ian-dooley-TT-ROxWj9nA-unsplash.jpg",
+        "title": "Скелетная рука, женская",
+        "price": 750,
+        "size": "S",
+        "color": "белый"
+    },
+    {
+        "img": "tarutoa-QIymolbz7G0-unsplash.jpg",
+        "title": "Женская няшная футболка",
+        "price": 800,
+        "size": "M",
+        "color": "белый"
+    },
+    {
+        "img": "arrul-lin-sYhUhse5uT8-unsplash.jpg",
+        "title": "Мужская серая футболка",
+        "price": 900,
+        "size": "M",
+        "color": "серый"
+    },
+    {
+        "img": "parker-whitson-8yOpKBcw8Uo-unsplash.jpg",
+        "title": "Баскетбол",
+        "price": 1000,
+        "size": "L",
+        "color": "белый"
+    },
+    {
+        "img": "parker-whitson-h7YNcTwExiM-unsplash.jpg",
+        "title": "Everyone equal",
+        "price": 850,
+        "size": "S",
+        "color": "белый"
+    },
+    {
+        "img": "free-to-use-sounds-VR_plQYuA_4-unsplash.jpg",
+        "title": "Sound Guy",
+        "price": 950,
+        "size": "S",
+        "color": "белый"
+    },
+    {
+        "img": "james-barr-NrUI1gjdcY4-unsplash.jpg",
+        "title": "Grand des Scheme",
+        "price": 950,
+        "size": "M",
+        "color": "серый"
+    },
+
+    {
+        "img": "leana-hodges-qeqEmGGOHg0-unsplash.jpg",
+        "title": "Live it, Love it",
+        "price": 750,
+        "size": "M",
+        "color": "серый"
+    },
+    {
+        "img": "sabrina-werneck-Xm7-U7BbZf4-unsplash.jpg",
+        "title": "Supreme Bart Simpson",
+        "price": 1050,
+        "size": "S",
+        "color": "серый"
+    },
+    {
+        "img": "allef-vinicius-8UOwLzt4RoI-unsplash.jpg",
+        "title": "Guns'n'Roses",
+        "price": 800,
+        "size": "S",
+        "color": "черный"
+    },
+    {
+        "img": "free-to-use-sounds-LnCq_epOWTA-unsplash.jpg",
+        "title": "Red Moon",
+        "price": 900,
+        "size": "L",
+        "color": "черный"
+    },
+    {
+        "img": "vinicius-henrique-FKeGskJ0Ivs-unsplash.jpg",
+        "title": "Let me hear the f*cking bass",
+        "price": 900,
+        "size": "L",
+        "color": "белый"
+    },
+    {
+        "img": "scorpio-creative-yjoK0w3OVpc-unsplash.jpg",
+        "title": "Футболка с короной",
+        "price": 800,
+        "size": "L",
+        "color": "белый"
+    },
+    {
+        "img": "tarutoa-XpZKYI2ECwU-unsplash.jpg",
+        "title": "Rep the world",
+        "price": 700,
+        "size": "S",
+        "color": "белый"
+    },
+    {
+        "img": "analise-benevides-4Qy-QOGyU9s-unsplash.jpg",
+        "title": "Серая футболка с карманом",
+        "price": 900,
+        "size": "S",
+        "color": "серый"
+    },
+    {
+        "img": "john-fornander-B0p9H9km0BI-unsplash.jpg",
+        "title": "Jurassic Park",
+        "price": 900,
+        "size": "M",
+        "color": "белый"
+    },
+    {
+        "img": "christian-bolt-VW5VjskNXZ8-unsplash.jpg",
+        "title": "Leave the road",
+        "price": 750,
+        "size": "M",
+        "color": "белый"
+    },
+    {
+        "img": "marco-xu-H1hdzdv7Jnw-unsplash.jpg",
+        "title": "Staff",
+        "price": 850,
+        "size": "S",
+        "color": "белый"
+    }
+]

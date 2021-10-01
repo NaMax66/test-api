@@ -1,25 +1,33 @@
 const http = require("http");
-const { PORT } = require("./config.js")
+const { PORT, DEFAULT_HEADERS } = require("./config.js");
+const Goods = require('./modules/goods.js');
 
-const testJSON = {
-  "name": "web-app-architecture-pattern",
-}
+const booksJSON = require('./db/book_database.json');
+const tShirtsJSON = require('./db/t-shirt_database.json');
+const trinketsJSON = require('./db/trinket_db.json');
 
-const server = http.createServer(async (req, res) => {
-  if (req.url === "/api" && req.method === "GET") {
+const books = new Goods(booksJSON);
+const trinkets = new Goods(tShirtsJSON);
+const tShirts = new Goods(trinketsJSON);
 
-    res.writeHead(200, {
-      "Content-Type": "application/json",
-      "Access-Control-Allow-Origin": "*"
-    });
-
-    res.write(JSON.stringify(testJSON));
-
+const server = http.createServer( (req, res) => {
+  if (req.url === "/books" && req.method === "GET") {
+    res.writeHead(200, DEFAULT_HEADERS);
+    res.write(books.getStringifiedData());
+    res.end();
+  } else if (req.url === "/t-shirts" && req.method === "GET"){
+    res.writeHead(200, DEFAULT_HEADERS);
+    res.write(trinkets.getStringifiedData());
+    res.end();
+  } else if (req.url === "/trinkets" && req.method === "GET") {
+    res.writeHead(200, DEFAULT_HEADERS);
+    res.write(tShirts.getStringifiedData());
     res.end();
   }
+
   else {
-    res.writeHead(404, { "Content-Type": "application/json" });
-    res.end(JSON.stringify({ message: "Route not found" }));
+    res.writeHead(404, DEFAULT_HEADERS);
+    res.end(JSON.stringify("Choose the right route"));
   }
 })
 
