@@ -1,0 +1,20 @@
+[
+  {
+    "img": "aaron-burden-NXt5PrOb_7U-unsplash.jpg",
+    "title": "Золотые карманные часы",
+    "price": 5400,
+    "material": "сталь"
+  },
+  {
+    "img": "john-jennings-I_kGNSAqD-8-unsplash.jpg",
+    "title": "Перьевая ручка",
+    "price": 6100,
+    "material": "сталь"
+  },
+  {
+    "img": "freshh-connection-tuei08u_9SU-unsplash.jpg",
+    "title": "Блокнот с приятной бумагой",
+    "price": 1850,
+    "material": "пластик"
+  }
+]
